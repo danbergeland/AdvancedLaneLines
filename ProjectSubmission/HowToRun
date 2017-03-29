@@ -1,0 +1,13 @@
+To run this software:
+Ensure that you have an environment with opencv and all required python libraries.
+I built this in an anaconda environment using 'conda install opencv', and using pip for numpy and other required python modules.
+
+use the following command to encode the project video:
+
+python lane_find_video.py project_video.mp4
+
+To run the code on a single frame:
+
+python lanefinding.py test3.jpg
+
+The outputs will appear in the 'outputs' folder in the project directory.
